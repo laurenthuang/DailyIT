@@ -3,6 +3,7 @@
 ---
 tags:
   - bash
+  - prompt
   - tips
   - shell
   - linux
