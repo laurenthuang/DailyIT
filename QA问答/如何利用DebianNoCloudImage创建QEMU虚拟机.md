@@ -32,7 +32,7 @@ $ usermod -aG sudo <user>
 $ usermod -L root
 ```
 
-## 步骤3 禁止 ssh 客户端用密码或口令登录
+## 步骤5 禁止 ssh 客户端用密码或口令登录
 更改/etc/ssh/sshd_config，设置：
 ```shell
 PermitRootLogin no
