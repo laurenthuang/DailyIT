@@ -1,12 +1,12 @@
-# Q: 如何使用Grep？
+# Q: 如何使用grep递归查询目录下所有文件中是否包含制定文本内容？
 
+## 
 ---
 tags:
   - linux
   - shell
   - grep
 ---
-## 递归查询目录下所有文件中是否包含制定文本内容
 ```shell
 $ grep -nr some_pattern some_path
 ```
