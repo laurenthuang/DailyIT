@@ -1,13 +1,13 @@
-# Q: 如何将SSH公钥添加到目标Linux主机？
+# Q: 如何在SSH服务器添加客户端的SSH公钥？
 
 ---
 tags:
   - ssh
   - public key
   - linux
-  - authorized_keys
+  - server
 ---
-## 将公钥添加到目标主机
+## 将客户端公钥添加到配置文件
 （假设文件名“id_rsa.pub”，并已上传）
 ```shell
 cat id_rsa.pub >> ~/.ssh/authorized_keys

@@ -1,10 +1,10 @@
-# Q: 如何在客户端生成SSH密钥对？
+# Q: 如何使用ssh-keygen生成SSH密钥对？
 
 ---
 tags:
   - ssh
   - keygen
-  - client
+  - key pair
 ---
 ## 客户端生成密钥对（假设512比特，ed25519算法）
 ```shell
