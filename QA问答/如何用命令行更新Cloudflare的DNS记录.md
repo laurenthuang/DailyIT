@@ -29,7 +29,6 @@ curl https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records/$DNS_RECORD
 
 - Zone ID: 0e9935da9af28ad81f39ed29fa301a9b
 - Record ID: ee80baef627e2e8336b634664137d05e
-- Email: huangjianzhong79@hotmail.com
 - Record Type: A
 
 
@@ -37,7 +36,7 @@ curl https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records/$DNS_RECORD
 curl https://api.cloudflare.com/client/v4/zones/0e9935da9af28ad81f39ed29fa301a9b/dns_records/ee80baef627e2e8336b634664137d05e \
     -X PATCH \
     -H 'Content-Type: application/json' \
-    -H "X-Auth-Email: huangjianzhong79@hotmail.com" \
+    -H "X-Auth-Email: <email address>" \
     -H "X-Auth-Key: $CLOUDFLARE_API_KEY" \
     -d '{
       "comment": "test update",
