@@ -11,6 +11,9 @@ tags:
 
 引用环境变量时，名称前后都加字符`%`
 ```cmd
-USERPROFILE    The user's profile folder. A typical path is C:\Users\<username>
 APPDATA        C:\Users\<username>\AppData\Roaming
+USERNAME       当前登录用户的用户名
+USERDOMAIN     计算机所属的工作组或域的名称
+USERPROFILE    指向当前用户的文档文件夹，例如 C:\Users\<username>
+CD             表示脚本运行时所在的当前目录
 ```
